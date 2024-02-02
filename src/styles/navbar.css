@@ -2,7 +2,6 @@
     margin: 1rem 1rem 10rem 1rem;
     height: 80px;
     border-radius: 15px;
-    
 }
 
 .video-background {
@@ -41,3 +40,6 @@
     margin-top: 20px; /* Adjust as needed */
   }
   
+  .nav-item{
+    cursor: pointer;
+  }
