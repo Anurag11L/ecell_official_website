@@ -4,12 +4,16 @@ import Navigate from './components/Navigate';
 import MissionVision from './components/MissionVision';
 import Feature from './components/Feature';
 import Footer from './components/Footer';
+import GetStarted from './components/GetStarted';
+import AboutUs from './components/AboutUs';
 
 function App() {
   return (
-    <div>
+    <div data-spy="scroll" data-target="#navbar">
       <Navigate />
       <main>
+      <AboutUs></AboutUs>
+      {/* <GetStarted/> */}
         {/* <MissionVision /> */}
         {/* <Feature /> */}
       </main>
