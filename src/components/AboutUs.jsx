@@ -5,7 +5,7 @@ import '../styles/navbar.css';
 const AboutUs = () => {
   return (
     <>
-      <div id="aboutus" className="section-holder container">
+      <div id="aboutus" className="section-holder container" >
 
         <h1 className="blue-text">About us</h1>
 
@@ -20,7 +20,7 @@ const AboutUs = () => {
               assistance and marketing advisory throughout the way.
             </p>
             <a href="/about" className="hvr-icon-forward">
-              Read More
+              Read More 
               <i className="zmdi zmdi-arrow-right hvr-icon"></i>
             </a>
           </div>

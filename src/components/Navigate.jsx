@@ -2,6 +2,8 @@ import React from 'react';
 import logo from '../images/ecell_logo/ecell.png';
 import '../styles/navbar.css';
 import '../styles/global.css';
+import '../styles/hover.css';
+import '../styles/testimonials.css';
 
 const Navigate = () => {
   return (
@@ -48,7 +50,7 @@ const Navigate = () => {
       <div className="header-overlay"></div>
 
       {/* Hero Section */}
-      <div className="v-header container">
+      <div className="v-header container" style={{zIndex:'2300'}}>
         <div className="header-content text-md-center">
           <h1>The destination of innovation, the store house of ideas</h1>
           <p className="white-text">
