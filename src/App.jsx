@@ -13,7 +13,7 @@ function App() {
       <Navigate />
       <main>
       <AboutUs></AboutUs>
-      {/* <GetStarted/> */}
+      <GetStarted/>
         {/* <MissionVision /> */}
         {/* <Feature /> */}
       </main>

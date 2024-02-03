@@ -4,7 +4,7 @@
     /* border-radius: 15px; */
     /* z-index: 1; */
 }
-/*
+/* 
 .video-background {
     position:absolute;
     top: 0;
@@ -32,13 +32,13 @@
   
   /* .navbar-transparent {
     background-color: transparent !important;
-  }
+  } */
   
-  .welcome-text {
+  /* .welcome-text {
     text-align: center;
     color: rgb(255, 255, 255);
     margin-top: 20px; 
-  } */
+  }  */
   
   .nav-item{
     cursor: pointer;
@@ -55,7 +55,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    z-index: 2;
+    /* z-index: 2310; */
 }
 
 .arrow-symbol {
@@ -283,6 +283,7 @@
     padding-right: 1rem;
     margin-top: auto;
     text-align: center;
+    font-size: small;
   }
   
   .fullscreen-video-wrap {

@@ -7,7 +7,7 @@ const AboutUs = () => {
     <>
       <div id="aboutus" className="section-holder container" >
 
-        <h1 className="blue-text">About us</h1>
+        <h2 className="blue-text">About us</h2>
 
         <div className="row intro-sec" style={{ justifyContent: 'space-around' }}>
           <div className="col-md-5 intro" style={{ textAlign: 'left' }}>
