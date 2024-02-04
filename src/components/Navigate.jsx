@@ -8,10 +8,10 @@ import '../styles/testimonials.css';
 const Navigate = () => {
   return (
     <>
-      <nav id="navbar" className="navbar navbar-expand-xl navbar-dark fixed-top" style={{ margin: '20px' }}>
+      <nav id="navbar" className="navbar navbar-expand-xl navbar-dark fixed-top">
       <a href="/">
       {/* className="nav-link logo logo-nav navbar-brand"  */}
-        <img src={logo} alt="" style={{ height: '60px', width: 'auto',marginLeft:'0' }} />
+        <img src={logo} alt="" style={{ height: '4rem', width: 'auto',marginLeft:'0' }} />
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,22 +20,22 @@ const Navigate = () => {
         <div className="navbar-collapse collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto ml-auto nav-pills" id="navitems">
             <li className="nav-item">
-              <a className="nav-link hvr-underline-from-left" href="#aboutus">About Us</a>
+              <a className="nav-link hvr-underline-from-left" href="#aboutus" style={{color:"white"}}>About Us <span className="sr-only">(current)</span></a>
             </li>
             <li className="nav-item">
-              <a className="nav-link hvr-underline-from-left" href="#features">Get Started <span className="sr-only">(current)</span></a>
+              <a className="nav-link hvr-underline-from-left" href="#features" style={{color:"white"}}>Get Started </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link hvr-underline-from-left" href="#acheivements">Achievements</a>
+              <a className="nav-link hvr-underline-from-left" href="#acheivements" style={{color:"white"}}>Achievements</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link hvr-underline-from-left" href="#events">Events</a>
+              <a className="nav-link hvr-underline-from-left" href="#events" style={{color:"white"}}>Events</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link hvr-underline-from-left" href="#partners-section">Partners</a>
+              <a className="nav-link hvr-underline-from-left" href="#partners-section" style={{color:"white"}}>Partners</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link hvr-underline-from-left" href="/team">Team</a>
+              <a className="nav-link hvr-underline-from-left" href="/team" style={{color:"white"}}>Team</a>
             </li>
           </ul>
           <span className="navbar-text">
@@ -86,15 +86,15 @@ const Navigate = () => {
       <div className="header-overlay"></div>
 
       {/* Hero Section */}
-      <div className="v-header container" style={{zIndex:'2300'}}>
+      <div className="v-header container" style={{zIndex:'2300',marginTop:"4rem"}}>
         <div className="header-content text-md-center">
-          <h1>The destination of innovation, the store house of ideas</h1>
+          <h1 >The destination of innovation, the store house of ideas</h1>
           <p className="white-text">
-            We are here to provide a healthy ecosystem to make your idea happen, to make you an entrepreneur
+            <h3>We are here to provide a healthy ecosystem to make your idea happen, to make you an entrepreneur</h3>
           </p>
-          <a className="btn hvr-icon-forward" href="#">
-            Launch your Startup
-            <i className="zmdi zmdi-arrow-right hvr-icon"></i>
+          <a className="btn hvr-icon-forward" href="#" >
+            <h5>Launch your Startup <i className="zmdi zmdi-arrow-right hvr-icon" ></i></h5>
+            {/* <i className="zmdi zmdi-arrow-right hvr-icon" ></i> */}
           </a>
         </div>
         <div className="arrow-symbol">
