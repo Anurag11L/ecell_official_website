@@ -11,7 +11,7 @@ const Navigate = () => {
       <nav id="navbar" className="navbar navbar-expand-xl navbar-dark fixed-top" style={{ margin: '20px' }}>
       <a href="/">
       {/* className="nav-link logo logo-nav navbar-brand"  */}
-        <img src={logo} alt="" style={{ height: '50px', width: 'auto',marginLeft:'0' }} />
+        <img src={logo} alt="" style={{ height: '60px', width: 'auto',marginLeft:'0' }} />
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
