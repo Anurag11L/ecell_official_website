@@ -13,7 +13,7 @@ const AboutUs = () => {
           <div className="col-md-5 intro" style={{ textAlign: 'left' }}>
             <h2>We help convert ideas to startups.</h2>
             <p>
-              At Ecell, we help you bring your ideas into reality. We provide 
+              At IIC, we help you bring your ideas into reality. We provide 
               mentorship and guidance by providing outline of each step in
               detail for a better structured business growth. We help potential
               entrepreneurs connect with incubator centres and provide technical
@@ -35,7 +35,7 @@ const AboutUs = () => {
       <div className="container counter">
         <div className="section">
           <div className="container">
-            <div className="grey-text">At DJ-ECELL</div>
+            <div className="grey-text">At IIC</div>
 
             <div className="social-media-content">
               <h2 className="b-h1 grey counter-heading" style={{ fontWeight: 300 }}>
@@ -49,7 +49,7 @@ const AboutUs = () => {
                         <i className="fab fa-instagram" id="allicon"></i>
                       </a>
                       <div className="item-animate">
-                        <h2 className="counteranimation">750</h2>
+                        <h2 className="counteranimation">1.15k</h2>
                       </div>
 
                       <a href="https://instagram.com/ecell_djsce?igshid=1osdfh57d1bsr" target="_blank">
@@ -91,7 +91,7 @@ const AboutUs = () => {
                         <i className="fab fa-linkedin" id="allicon"></i>
                       </a>
                       <div className="item-animate">
-                        <h2 className="counteranimation">950</h2>
+                        <h2 className="counteranimation">1k</h2>
                       </div>
 
                       <a href="https://www.linkedin.com/company/dj-e-cell" target="_blank">
