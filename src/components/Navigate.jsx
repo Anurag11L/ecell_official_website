@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../images/ecell_logo/ecell.png';
+import logo from '../images/ecell_logo/IIC_logo.png';
 import '../styles/navbar.css';
 import '../styles/global.css';
 import '../styles/hover.css';
@@ -11,7 +11,7 @@ const Navigate = () => {
       <nav id="navbar" className="navbar navbar-expand-xl navbar-dark fixed-top" style={{ margin: '20px' }}>
       <a href="/">
       {/* className="nav-link logo logo-nav navbar-brand"  */}
-        <img src={logo} alt="" style={{ height: '40px', width: 'auto',marginLeft:'0' }} />
+        <img src={logo} alt="" style={{ height: '60px', width: 'auto',marginLeft:'0' }} />
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
