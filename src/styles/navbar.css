@@ -126,7 +126,7 @@
   /*Navbar*/
   
   nav {
-    background: rgb(255, 59, 59);
+    background: #ff564a;
     /* text-align: center; 
     filter: blur(4px); */
     z-index: 2300;
@@ -346,13 +346,14 @@
   }
   
   nav .nav-btn {
-    background-color: #f74539;
+    background-color: #2E3192;
     border: none;
     color: #fff !important;
     margin: 5px 10px;
     font-size: 12px;
     padding: 12px 24px;
     border-radius: 0;
+    cursor: pointer;
   }
   
   /* .arrow-symbol {
