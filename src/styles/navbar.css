@@ -840,9 +840,8 @@
     box-shadow: 0 15px 35px 0 rgba(24, 206, 15, 0.35);
   }
   
-  .blue i,
+  /* .blue i, */
   .blue ion-icon,
-  .blue .iconify,
   .blue:hover h4 {
     color: #2ca8ff;
   }
@@ -874,7 +873,7 @@
   
   .purple i,
   .purple ion-icon,
-  .purple .iconify,
+  /* .purple .iconify, */
   .purple:hover h4 {
     color: #ab2bc2;
   }
