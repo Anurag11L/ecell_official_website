@@ -8,7 +8,7 @@ const GetStarted = () => {
         <div className="row">
           <div className="feature col-lg-4 purple">
             <span className="circle">
-            <ion-icon name="school"></ion-icon>
+              <ion-icon name="school-outline"></ion-icon>
             </span>
             <h4>Mentorship</h4>
             <p>
