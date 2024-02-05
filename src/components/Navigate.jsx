@@ -98,8 +98,9 @@ const Navigate = () => {
           </a>
         </div>
         <div className="arrow-symbol">
-          <a href="#">
-            <i className="fa fa-angle-down fa-5x" style={{ color: '#fff' }}></i>
+          <a href="#aboutus">
+            <ion-icon name="chevron-down-outline" style={{ color: 'white',   fontSize: '6rem' }}></ion-icon>
+            {/* <i className="fa fa-angle-down fa-5x" style={{ color: '#fff' }}></i> */}
           </a>
         </div>
         {/* <div class="arrow-symbol" style="z-index: 2"></div> */}
