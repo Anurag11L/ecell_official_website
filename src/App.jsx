@@ -6,18 +6,28 @@ import Feature from './components/Feature';
 import Footer from './components/Footer';
 import GetStarted from './components/GetStarted';
 import AboutUs from './components/AboutUs';
+import {BrowserRouter,Routes,Route} from "react-router-dom";
+import Team from './components/Team';
 
 function App() {
   return (
     <div data-spy="scroll" data-target="#navbar">
       <Navigate />
-      <main>
-      <AboutUs></AboutUs>
-      <GetStarted/>
+      
+        <BrowserRouter>
+          <AboutUs></AboutUs>
+          <GetStarted></GetStarted>
+          <Team></Team>
+            <Routes>
+              <Route path="/about" element={<AboutUs></AboutUs>} />
+              <Route path="/get" element={<GetStarted></GetStarted>} />
+              <Route path="/team" element={<Team></Team>}></Route>
+              
+            </Routes>
+        </BrowserRouter>
         {/* <MissionVision /> */}
         {/* <Feature /> */}
-      </main>
-      {/* <Footer /> */}
+        {/* <Footer /> */}
     </div>
   );
 }
