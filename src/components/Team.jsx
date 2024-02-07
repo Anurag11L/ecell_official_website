@@ -19,12 +19,40 @@ const Team = () => {
           </div>
         </div>
         <h4 className="peach-text">Members</h4>
-        <div className="row faculty">
-          <div className="col-md-4">
-            <h5>Dr. Atul Dhale</h5>
-            <p className="peach-text newstyle">Production</p>
-          </div>
-          {/* Add more member divs here */}
+        <div class="row faculty">
+        <div class="col-md-4">
+          <h5>Dr. Atul Dhale</h5>
+          <p class="peach-text newstyle">Production</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Dr. Ram Mangrulkar</h5>
+          <p class="peach-text newstyle">Computer</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Dr. Rashmi Kumar</h5>
+          <p class="peach-text newstyle">Chemical</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Prof. Mangla Monica</h5>
+          <p class="peach-text newstyle">Information Technology</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Prof. Pratik Kanani</h5>
+          <p class="peach-text newstyle">Computer</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Prof. Shashikant Auti</h5>
+          <p class="peach-text newstyle">Mechanical</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Prof. Mayur Parulekar</h5>
+          <p class="peach-text newstyle">Electronics</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Dr. Vinayak H Khatawate</h5>
+          <p class="peach-text newstyle">Mechanical</p>
+        </div>
+      {/* </div> */}
         </div>
         <div className="row core" id="team">
           <div className="col-md-12">
