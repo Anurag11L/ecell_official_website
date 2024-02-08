@@ -13,7 +13,7 @@ const GetStarted = () => {
             <h4>Mentorship</h4>
             <p style={{fontSize:"1.4em"}}>
               We have an able faculty that does a great job mentoring and
-              supporting prospective entrepreneurs.asdfghj dfgfhj 
+              supporting prospective entrepreneurs.
             </p>
           </div>
           <div className="feature col-lg-4 blue">

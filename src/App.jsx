@@ -5,8 +5,9 @@ import MissionVision from './components/MissionVision';
 import Feature from './components/Feature';
 import Footer from './components/Footer';
 import GetStarted from './components/GetStarted';
+import Achievements from './components/Achievements';
 import AboutUs from './components/AboutUs';
-import {BrowserRouter,Routes,Route} from "react-router-dom";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Team from './components/Team';
 
 function App() {
@@ -16,13 +17,14 @@ function App() {
       
         <BrowserRouter>
           <AboutUs></AboutUs>
+          <Achievements></Achievements>
           <GetStarted></GetStarted>
           <Team></Team>
             <Routes>
               <Route path="/about" element={<AboutUs></AboutUs>} />
               <Route path="/get" element={<GetStarted></GetStarted>} />
+              <Route path="/achievements" element={<Achievements></Achievements>}></Route>
               <Route path="/team" element={<Team></Team>}></Route>
-              
             </Routes>
         </BrowserRouter>
         {/* <MissionVision /> */}
