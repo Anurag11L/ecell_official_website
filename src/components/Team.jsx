@@ -62,7 +62,7 @@ const Team = () => {
           <div className="col-md-3 first-row">
             <div
               className="team_member"
-              style={{ backgroundImage: 'url(./src/images/Core-24/Nihar.jpg)' }}    
+              style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }}    
             ></div>
             <h5>Nihar Nandoskar</h5>
             <p className="peach-text">VCP</p>
@@ -73,7 +73,7 @@ const Team = () => {
         <div class="col-md-3 first-row">
           <div
             class="team_member"
-            style={{ backgroundImage: 'url(./src/images/Core-24/Nihar.jpg)' }}  
+            style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }}  
           ></div>
           <h5>Bhavesh</h5>
           <p class="peach-text">Chairperson</p>
@@ -81,7 +81,7 @@ const Team = () => {
         <div class="col-md-3 first-row">
           <div
             class="team_member"
-            style={{ backgroundImage: 'url(./src/images/Core-24/Nihar.jpg)' }}  
+            style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }}  
           ></div>
           <h5>Bhargavee</h5>
           <p class="peach-text">Co-Chairperson</p>
@@ -91,7 +91,7 @@ const Team = () => {
       <div class="col-md-3 first-row row1">
         <div
           class="team_member"
-          style={{ backgroundImage: 'url(./src/images/Core-24/Nihar.jpg)' }} 
+          style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
         ></div>
         <h5>Anushka</h5>
         <p class="peach-text">Admin</p>
@@ -101,7 +101,7 @@ const Team = () => {
         <div class="col-md-3">
           <div
             class="team_member"
-            style={{ backgroundImage: 'url(./src/images/Core-24/Nihar.jpg)' }} 
+            style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
           ></div>
           <h5>Asim</h5>
           <p class="peach-text newstyle">
@@ -111,7 +111,7 @@ const Team = () => {
         <div class="col-md-3">
           <div
             class="team_member"
-            style={{ backgroundImage: 'url(./src/images/Core-24/Nihar.jpg)' }} 
+            style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
           ></div>
           <h5>RUCHI</h5>
           <p class="peach-text newstyle">Vice Chairperson Events</p>
@@ -119,7 +119,7 @@ const Team = () => {
         <div class="col-md-3">
           <div
             class="team_member"
-            style={{ backgroundImage: 'url(./src/images/Core-24/Nihar.jpg)' }} 
+            style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
           ></div>
           <h5>Krish Shah</h5>
           <p class="peach-text newstyle">Vice Chairperson Technical</p>
@@ -127,7 +127,7 @@ const Team = () => {
         <div class="col-md-3">
           <div
             class="team_member"
-            style={{ backgroundImage: 'url(./src/images/Core-24/Nihar.jpg)' }} 
+            style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
           ></div>
           <h5>Advait</h5>
           <p class="peach-text newstyle">Vice Chairperson Creatives</p>
@@ -135,7 +135,7 @@ const Team = () => {
         <div class="col-md-3">
           <div
             class="team_member"
-            style={{ backgroundImage: 'url(./src/images/Core-24/Nihar.jpg)' }} 
+            style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
           ></div>
           <h5>Pratham</h5>
           <p class="peach-text newstyle">Vice Chairperson Finance</p>
@@ -143,7 +143,7 @@ const Team = () => {
         <div class="col-md-3">
           <div
             class="team_member"
-            style={{ backgroundImage: 'url(./src/images/Core-24/Nihar.jpg)' }} 
+            style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
           ></div>
           <h5>Rushi</h5>
           <p class="peach-text newstyle">Vice Chairperson Marketing</p>
