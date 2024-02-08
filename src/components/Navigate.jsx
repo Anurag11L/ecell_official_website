@@ -27,7 +27,7 @@ const Navigate = () => {
               <a className="nav-link hvr-underline-from-left" href="#features" style={{color:"white"}}>Get Started </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link hvr-underline-from-left" href="#acheivements" style={{color:"white"}}>Achievements</a>
+              <a className="nav-link hvr-underline-from-left" href="#achievements" style={{color:"white"}}>Achievements</a>
             </li>
             <li className="nav-item">
               <a className="nav-link hvr-underline-from-left" href="#events" style={{color:"white"}}>Events</a>
