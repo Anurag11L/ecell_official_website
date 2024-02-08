@@ -62,7 +62,7 @@ const Team = () => {
           <div className="col-md-3 first-row">
             <div
               className="team_member"
-              style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }}    
+              style={{ backgroundImage: 'url(./src/public/static/images/Nihar.jpg)' }}    
             ></div>
             <h5>Nihar Nandoskar</h5>
             <p className="peach-text">VCP</p>
