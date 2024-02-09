@@ -9,6 +9,7 @@ import Achievements from './components/Achievements';
 import AboutUs from './components/AboutUs';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Team from './components/Team';
+import Events from './components/Events';
 
 function App() {
   return (
@@ -17,9 +18,12 @@ function App() {
       
         <BrowserRouter>
           <AboutUs></AboutUs>
-          <Achievements></Achievements>
+          
           <GetStarted></GetStarted>
+          <Achievements></Achievements>
+          <Events></Events>
           <Team></Team>
+          
             <Routes>
               <Route path="/about" element={<AboutUs></AboutUs>} />
               <Route path="/get" element={<GetStarted></GetStarted>} />

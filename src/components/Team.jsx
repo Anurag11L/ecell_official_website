@@ -64,8 +64,8 @@ const Team = () => {
               className="team_member"
               style={{ backgroundImage: 'url(./src/public/static/images/Nihar.jpg)' }}    
             ></div>
-            <h5>Nihar Nandoskar</h5>
-            <p className="peach-text">VCP</p>
+            <h5>Khushi Dodia</h5>
+            <p className="peach-text">CHAIRPERSON</p>
           </div>
         </div>
 
@@ -75,16 +75,27 @@ const Team = () => {
             class="team_member"
             style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }}  
           ></div>
-          <h5>Bhavesh</h5>
-          <p class="peach-text">Chairperson</p>
+          <h5>Nihar Nandoskar</h5>
+          <p class="peach-text">Co-Chairperson</p>
+        </div>
+      </div>
+
+        <div class="row core">
+        <div class="col-md-3 first-row">
+          <div
+            class="team_member"
+            style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }}  
+          ></div>
+          <h5>Kapil Kashyap</h5>
+          <p class="peach-text">Secretary</p>
         </div>
         <div class="col-md-3 first-row">
           <div
             class="team_member"
             style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }}  
           ></div>
-          <h5>Bhargavee</h5>
-          <p class="peach-text">Co-Chairperson</p>
+          <h5>Shubham Nikat</h5>
+          <p class="peach-text">Secretary</p>
         </div>
       </div>
 
@@ -93,64 +104,163 @@ const Team = () => {
           class="team_member"
           style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
         ></div>
-        <h5>Anushka</h5>
+        <h5>Ayushi Uttamani</h5>
         <p class="peach-text">Admin</p>
       </div>
 
       <div class="row core">
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div
             class="team_member"
             style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
           ></div>
-          <h5>Asim</h5>
+          <h5>Anurag Lade</h5>
           <p class="peach-text newstyle">
-            Vice Chairperson Public Relations
+            Vice Chairperson Technical
           </p>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div
             class="team_member"
             style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
           ></div>
-          <h5>RUCHI</h5>
+          <h5>Smriti Raman</h5>
           <p class="peach-text newstyle">Vice Chairperson Events</p>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div
             class="team_member"
             style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
           ></div>
-          <h5>Krish Shah</h5>
-          <p class="peach-text newstyle">Vice Chairperson Technical</p>
+          <h5>Kapil Kashyap</h5>
+          <p class="peach-text newstyle">Vice Chairperson Marketing</p>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div
             class="team_member"
             style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
           ></div>
-          <h5>Advait</h5>
+          <h5>Parth Popat</h5>
+          <p class="peach-text newstyle">Vice Chairperson Publicity</p>
+        </div>
+        <div class="col-md-4">
+          <div
+            class="team_member"
+            style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
+          ></div>
+          <h5>Kushal Shah</h5>
           <p class="peach-text newstyle">Vice Chairperson Creatives</p>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div
             class="team_member"
             style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
           ></div>
-          <h5>Pratham</h5>
+          <h5>Abhinav Solanki</h5>
           <p class="peach-text newstyle">Vice Chairperson Finance</p>
-        </div>
-        <div class="col-md-3">
-          <div
-            class="team_member"
-            style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
-          ></div>
-          <h5>Rushi</h5>
-          <p class="peach-text newstyle">Vice Chairperson Marketing</p>
         </div>
     </div>
 
-        {/* Add more core committee member divs here */}
+    <div class="row core">
+        <div class="col-md-3">
+          <div
+            class="team_member"
+            style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
+          ></div>
+          <h5>Sameer Gupta</h5>
+          <p class="peach-text newstyle">HOD Technical</p>
+        </div>
+        <div class="col-md-3">
+          <div
+            class="team_member"
+            style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
+          ></div>
+          <h5>Krishna Thakkar</h5>
+          <p class="peach-text newstyle">HOD Technical</p>
+        </div>
+        <div class="col-md-3">
+          <div
+            class="team_member"
+            style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
+          ></div>
+          <h5>Saniyaa B Shetty</h5>
+          <p class="peach-text newstyle">HOD Events</p>
+        </div>
+        <div class="col-md-3">
+          <div
+            class="team_member"
+            style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
+          ></div>
+          <h5>Shubham Bhimani</h5>
+          <p class="peach-text newstyle">HOD Events</p>
+        </div>
+        <div class="col-md-3">
+          <div
+            class="team_member"
+            style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
+          ></div>
+          <h5>Yash Madhani</h5>
+          <p class="peach-text newstyle">HOD Marketing</p>
+        </div>
+        <div class="col-md-3">
+          <div
+            class="team_member"
+            style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
+          ></div>
+          <h5>Sean Rumao</h5>
+          <p class="peach-text newstyle">HOD Marketing</p>
+        </div>
+        <div class="col-md-3">
+          <div
+            class="team_member"
+            style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
+          ></div>
+          <h5>Anish Shetty</h5>
+          <p class="peach-text newstyle">HOD Publicity</p>
+        </div>
+        <div class="col-md-3">
+          <div
+            class="team_member"
+            style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
+          ></div>
+          <h5>Deevi Nandu</h5>
+          <p class="peach-text newstyle">HOD Publicity</p>
+        </div>
+        <div class="col-md-3">
+          <div
+            class="team_member"
+            style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
+          ></div>
+          <h5>Saurav Haldar</h5>
+          <p class="peach-text newstyle">HOD Creatives</p>
+        </div>
+        <div class="col-md-3">
+          <div
+            class="team_member"
+            style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
+          ></div>
+          <h5>Bhavin Jobanputra</h5>
+          <p class="peach-text newstyle">HOD Finance</p>
+        </div>
+        <div class="col-md-3">
+          <div
+            class="team_member"
+            style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
+          ></div>
+          <h5>Chirayu Aggarwal</h5>
+          <p class="peach-text newstyle">HOD Editorial</p>
+        </div>
+        <div class="col-md-3">
+          <div
+            class="team_member"
+            style={{ backgroundImage: 'url(./src/images/Nihar.jpg)' }} 
+          ></div>
+          <h5>Varad Girolla</h5>
+          <p class="peach-text newstyle">HOD Editorial</p>
+        </div>
+    </div>
+
+
       </div>
     </>
   );

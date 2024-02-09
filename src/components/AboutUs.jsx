@@ -13,7 +13,7 @@ const AboutUs = () => {
 
         <div className="row intro-sec" style={{ justifyContent: 'space-around' }}>
           <div className="col-md-5 intro" style={{ textAlign: 'left' }}>
-            <div style={{fontSize:"2rem"}}>We help convert ideas to startups.</div>
+            <div style={{fontSize:"2rem",color:"black"}}>We help convert ideas to startups.</div>
             <p style={{fontSize:"1.2rem"}}>
               At IIC, we help you bring your ideas into reality. We provide 
               mentorship and guidance by providing outline of each step in
