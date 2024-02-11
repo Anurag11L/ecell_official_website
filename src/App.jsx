@@ -33,7 +33,7 @@ function App() {
         </BrowserRouter>
         {/* <MissionVision /> */}
         {/* <Feature /> */}
-        {/* <Footer /> */}
+        <Footer />
     </div>
   );
 }

@@ -1,25 +1,11 @@
-// import React from "react";
+import React from "react";
+import logo from "../images/ecell_logo/IIC_logo.png";
 import "../styles/navbar.css";
 import "../styles/global.css";
 import "../styles/hover.css";
 import "../styles/testimonials.css";
-import React, { useState } from "react";
-
 
 function Events() {
-  const [filteredEvents, setFilteredEvents] = useState([]);
-  const [selectedTag, setSelectedTag] = useState('all');
-
-  const filterSelection = (tag) => {
-    if (tag === 'all') {
-      setFilteredEvents(events_list);
-    } else {
-      const filtered = events_list.filter(event => event.tag === tag);
-      setFilteredEvents(filtered);
-    }
-    setSelectedTag(tag);
-  };
-
   const events_list = [
     {
       id: "journeyofastartup22",
@@ -55,7 +41,7 @@ function Events() {
       desc: `
           Ideathon is a business hackathon where participants will come up with a potential solution for a given problem statement, covering stages such as ideation, implementation, funding, marketing and branding with guidance from mentors.
               `,
-      coverImage: "../images/events/ideathon.jpeg",
+      coverImage: "ideathon.jpeg",
       shortDesc:
         '"Ideathon" is a business hackathon where participants will come up with a potential solution for a given problem statement, covering stages such as ideation, implementation, funding, marketing and branding with guidance from mentors.',
       tag: "2021-22",
@@ -393,35 +379,51 @@ function Events() {
 
   return (
     <>
-      <div id="events" className="section-holder">
-        <h1 className="">Events</h1>
-        <div className="btn-wrapper">
+      <div id="events" class="section-holder">
+        <h1 class="">Events</h1>
+        <div class="btn-wrapper">
           <div id="myBtnContainer">
-            {['2022-23', '2021-22', '2020-21', '2019-20', '2018-19', 'all'].map(tag => (
-              <p key={tag} className={`my-btn ${selectedTag === tag ? 'active' : ''}`} onClick={() => filterSelection(tag)}>
-                {tag === 'all' ? 'All' : tag}
-              </p>
-            ))}
+            <p class="my-btn" onclick="filterSelection('2022-23')">
+              2022&nbsp;-&nbsp;23
+            </p>
+            <p class="my-btn" onclick="filterSelection('2021-22')">
+              2021&nbsp;-&nbsp;22
+            </p>
+            <p class="my-btn" onclick="filterSelection('2020-21')">
+              2020&nbsp;-&nbsp;21
+            </p>
+            <p class="my-btn" onclick="filterSelection('2019-20')">
+              2019&nbsp;-&nbsp;20
+            </p>
+            <p class="my-btn" onclick="filterSelection('2018-19')">
+              2018&nbsp;-&nbsp;19
+            </p>
+            <p class="my-btn" onclick="filterSelection('all')">
+              All
+            </p>
           </div>
         </div>
         <div className="cards">
-          {filteredEvents.map((e) => (
-            <div className={`card-container ${e.tag}`} key={e.id}>
+          {events_list.forEach((e) => {
+            <div className={`card-container ${e.tag}`}>
               <div className="card">
-                <div className="img-holder" style={{ backgroundImage: `url(${e.coverImage})` }}>
-                  {/* <img src={e.coverImage} alt={e.title} /> */}
+                <div
+                  className="img-holder"
+                  style={{ backgroundImage: 'url(./src/images/Core-24/Nihar.jpg)' }}
+                >
+                  {/* <img src={`../images/journeyofastartup22/journeyofastartup`} /> */}
                 </div>
                 <div className="content">
                   <h3>{e.title}</h3>
                   <p>{e.shortDesc.slice(0, 100)}</p>
-                  <a href={`/events/${e.id}`} className="hvr-icon-forward">
+                  <a href={`/events/${e.id}`} class="hvr-icon-forward">
                     Read More
-                    <i className="zmdi zmdi-arrow-right hvr-icon"></i>
+                    <i class="zmdi zmdi-arrow-right hvr-icon"></i>
                   </a>
                 </div>
               </div>
-            </div>
-          ))}
+            </div>;
+          })}
         </div>
       </div>
     </>
